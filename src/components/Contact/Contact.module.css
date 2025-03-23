@@ -1,0 +1,41 @@
+.contactCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name,
+.number {
+    display: flex;
+    justify-self: start;
+    font-size: 16px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.deleteButton {
+    background-color: #e0e0e0;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.deleteButton:hover {
+    background-color: #d32f2f;
+    color: #fff;
+    border-color: #b71c1c;
+}
